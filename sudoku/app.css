@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(44, 41, 41);
+    
+}
+hr{
+    width:500px;
+}
+
+h1{
+    color:blanchedalmond
+}
+#errors{
+    color : coral;
+    flex : right;
+}
+
+#board{
+    width: 451px;
+    height : 448px;
+    margin : 0 auto;
+    display: flex;
+    flex-wrap : wrap;
+    background-color: grey;
+
+}
+.right{
+    border-right: 2px solid !important;
+    border-right-color: black !important;
+    border-bottom-right-radius: 1%;
+}
+.left
+{
+    border-left: 2px solid !important;
+    border-left-color: black !important;
+}
+.bottom
+{
+    border-bottom: 2px solid !important;
+    border-bottom-color: black !important;
+}
+.top
+{
+    border-top: 2px solid !important;
+    border-top-color: black !important;
+}
+.tile{
+    width : 48px;
+    height : 48px;
+    border : 1px solid;
+    border-color: rgb(91, 63, 3);
+    font-size: 20px;
+    font-weight: thin;
+    display : flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color : black;
+    align-items: center;
+}
+.number{
+    width : 48px;
+    height : 48px;
+    border : 1px solid black;
+    margin : 2px;
+    font-size: 20px;
+    font-weight: bold;
+    display : flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: beige;
+}
+#digits{
+    width : 550px;
+    height : 50px;
+    margin : 0 auto;
+    display : flex;
+    flex-wrap: wrap;
+    background-color: rgb(44, 43, 41)
+}
+
+.number-selected{
+    background-color: rgb(219, 47, 47);
+    color : white;
+    border-radius: 10px;
+}
+.tile-start{
+    background-color: rgb(247, 185, 52);
+}
+
